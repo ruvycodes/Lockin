@@ -5,7 +5,6 @@ import First from './components/First'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Testimonials from './components/Testimonials'
-import ResponsiveWrapper from './components/ResponsiveWrapper'
 
 function App() {
 

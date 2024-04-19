@@ -1,0 +1,33 @@
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .comparison-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .comparison-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .check {
+    color: green;
+  }
+  
+  .cross {
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    .comparison-row {
+      /* flex-wrap: wrap; */
+    }
+  
+    .comparison-cell {
+      flex-basis: 50%;
+    }
+  }
